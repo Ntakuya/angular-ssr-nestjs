@@ -2,7 +2,7 @@
 
 ## table of contents
 
-0. Angualr のプロジェクトを作成する
+0. Angulr のプロジェクトを作成する
 1.
 
 ## 0. Angular の Project を作成する
