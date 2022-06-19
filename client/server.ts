@@ -49,12 +49,14 @@ export function app(): express.Express {
 }
 
 function run(): void {
-  const port = process.env['PORT'] || 4000;
+  const port = Number(process.env['PORT']);
+  const PORT = Number.isNaN(port) ? 4000 : port;
+  const HOST = '0.0.0.0';
 
   // Start up the Node server
   const server = app();
-  server.listen(port, () => {
-    console.log(`Node Express server listening on http://localhost:${port}`);
+  server.listen(PORT, HOST, () => {
+    console.log(`[Info]Server is listen to ${HOST} ${PORT}`);
   });
 }
 

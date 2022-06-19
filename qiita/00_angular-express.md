@@ -7,6 +7,21 @@
 
 ## before development
 
+環境
+
+| Package                       | Version  |
+| :---------------------------- | -------- |
+| @angular-devkit/architect     | 0.1303.8 |
+| @angular-devkit/build-angular | 13.3.8   |
+| @angular-devkit/core          | 13.3.8   |
+| @angular-devkit/schematics    | 13.3.8   |
+| @angular/cli                  | 13.3.8   |
+| @nguniversal/builders         | 13.1.1   |
+| @nguniversal/express-engine   | 13.1.1   |
+| @schematics/angular           | 13.3.8   |
+| rxjs                          | 6.6.7    |
+| typescript                    | 4.6.4    |
+
 ## 0. Angular の Project を作成する
 
 `ng command`を利用して Angular のプロジェクトを作成します。
